@@ -17,7 +17,7 @@ try{
     console.log(err.message);
 } finally {
     if (username && password) {
-        console.log(`username:  ${username}. password: ${password}`);
+        console.log(`username: ${username}\npassword: ${password}`);
     }
     else{
         console.log('Got nothing');
